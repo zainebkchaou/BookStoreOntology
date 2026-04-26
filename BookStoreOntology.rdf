@@ -1,0 +1,360 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21/"
+     xml:base="http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-21="http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#addedToCart -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#addedToCart">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#addedToCart"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Book"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#addedToFavorites -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#addedToFavorites">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#addedToFavorites"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Book"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#belongsToCategory -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#belongsToCategory">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#belongsToCategory"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Category"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#hasOrder -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#hasOrder">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#hasOrder"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Order"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#hasPayment -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#hasPayment">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#hasPayment"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Payment"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#purchasedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#purchasedBy">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#purchasedBy"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Customer"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#writtenBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#writtenBy">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#writtenBy"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Author"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#authorName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#authorName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#bookPrice -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#bookPrice">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#bookTitle -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#bookTitle">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#categoryName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#categoryName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#customerName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#customerName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#orderDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#orderDate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#paymentMethod -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#paymentMethod">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Author -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Author"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Book -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Book"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Cart -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Cart"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Category -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Category"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Customer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Customer"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Favorite -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Favorite"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Order -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Order"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Payment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Payment"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#AlexMichaelides -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#AlexMichaelides">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Author"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Fantasy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Fantasy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Category"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#HarryPotter -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#HarryPotter">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Book"/>
+        <untitled-ontology-21:belongsToCategory rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Fantasy"/>
+        <untitled-ontology-21:writtenBy rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#JkRowling"/>
+        <untitled-ontology-21:bookPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">45</untitled-ontology-21:bookPrice>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Horror -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Horror">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Category"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#JaneAusten -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#JaneAusten">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Author"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#JkRowling -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#JkRowling">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Author"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Kchaou -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Kchaou">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Customer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#PrideAndPrejudice -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#PrideAndPrejudice">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Book"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Romance -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Romance">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Category"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#SilentPatient -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#SilentPatient">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Book"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Zaineb -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Zaineb">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Customer"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
