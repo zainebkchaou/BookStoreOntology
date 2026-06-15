@@ -1,0 +1,943 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "baseIris" : [ "http://www.w3.org/2002/07/owl", "http://www.w3.org/2000/01/rdf-schema", "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21", "http://www.w3.org/2001/XMLSchema" ],
+    "iri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21"
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "0",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "33",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "34",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "36",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "37",
+    "type" : "owl:Class"
+  }, {
+    "id" : "31",
+    "type" : "owl:Class"
+  }, {
+    "id" : "15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "4",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "47",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "39",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "48",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "49",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "50",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "41",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "46",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "52",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "44",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "58",
+    "type" : "owl:Class"
+  }, {
+    "id" : "55",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Order",
+    "baseIri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Order"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Order1",
+      "baseIri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21",
+      "labels" : {
+        "IRI-based" : "Order1"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Order2",
+      "baseIri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21",
+      "labels" : {
+        "IRI-based" : "Order2"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Order3",
+      "baseIri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21",
+      "labels" : {
+        "IRI-based" : "Order3"
+      }
+    } ],
+    "id" : "0",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Cart",
+    "baseIri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Cart"
+    },
+    "id" : "2"
+  }, {
+    "iri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Publisher",
+    "baseIri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Publisher"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#PenguinBooks",
+      "baseIri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21",
+      "labels" : {
+        "IRI-based" : "PenguinBooks"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#HarperCollins",
+      "baseIri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21",
+      "labels" : {
+        "IRI-based" : "HarperCollins"
+      }
+    } ],
+    "id" : "6"
+  }, {
+    "iri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Person",
+    "baseIri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Person"
+    },
+    "subClasses" : [ "8", "9" ],
+    "id" : "7"
+  }, {
+    "iri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Transaction",
+    "baseIri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Transaction"
+    },
+    "subClasses" : [ "0", "12" ],
+    "id" : "1"
+  }, {
+    "iri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Payment",
+    "baseIri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Payment"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Payment1",
+      "baseIri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21",
+      "labels" : {
+        "IRI-based" : "Payment1"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Payment2",
+      "baseIri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21",
+      "labels" : {
+        "IRI-based" : "Payment2"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Payment3",
+      "baseIri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21",
+      "labels" : {
+        "IRI-based" : "Payment3"
+      }
+    } ],
+    "id" : "12",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Author",
+    "baseIri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Author"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#JkRowling",
+      "baseIri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21",
+      "labels" : {
+        "IRI-based" : "JkRowling"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#PauloCoelho",
+      "baseIri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21",
+      "labels" : {
+        "IRI-based" : "PauloCoelho"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#JamesClear",
+      "baseIri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21",
+      "labels" : {
+        "IRI-based" : "JamesClear"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#JaneAusten",
+      "baseIri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21",
+      "labels" : {
+        "IRI-based" : "JaneAusten"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#AlexMichaelides",
+      "baseIri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21",
+      "labels" : {
+        "IRI-based" : "AlexMichaelides"
+      }
+    } ],
+    "id" : "9",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "33",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "34",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "36",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Favorite",
+    "baseIri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Favorite"
+    },
+    "id" : "37"
+  }, {
+    "iri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Review",
+    "baseIri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Review"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Review3",
+      "baseIri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21",
+      "labels" : {
+        "IRI-based" : "Review3"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Review4",
+      "baseIri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21",
+      "labels" : {
+        "IRI-based" : "Review4"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Review1",
+      "baseIri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21",
+      "labels" : {
+        "IRI-based" : "Review1"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Review2",
+      "baseIri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21",
+      "labels" : {
+        "IRI-based" : "Review2"
+      }
+    } ],
+    "id" : "31",
+    "superClasses" : [ "15" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Feedback",
+    "baseIri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Feedback"
+    },
+    "subClasses" : [ "31", "14" ],
+    "id" : "15"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "5",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "4",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Book",
+    "baseIri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Book"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#AtomicHabits",
+      "baseIri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21",
+      "labels" : {
+        "IRI-based" : "AtomicHabits"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#HarryPotter",
+      "baseIri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21",
+      "labels" : {
+        "IRI-based" : "HarryPotter"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#SilentPatient",
+      "baseIri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21",
+      "labels" : {
+        "IRI-based" : "SilentPatient"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#TheAlchemist",
+      "baseIri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21",
+      "labels" : {
+        "IRI-based" : "TheAlchemist"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#PrideAndPrejudice",
+      "baseIri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21",
+      "labels" : {
+        "IRI-based" : "PrideAndPrejudice"
+      }
+    } ],
+    "id" : "47"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "11",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "39",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "48",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "49",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "50",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "41",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "46",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "52",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Recommendation",
+    "baseIri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Recommendation"
+    },
+    "id" : "14",
+    "superClasses" : [ "15" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "44",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Wishlist",
+    "baseIri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Wishlist"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Wishlist1",
+      "baseIri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21",
+      "labels" : {
+        "IRI-based" : "Wishlist1"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#WishlistZaineb",
+      "baseIri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21",
+      "labels" : {
+        "IRI-based" : "WishlistZaineb"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Wishlist2",
+      "baseIri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21",
+      "labels" : {
+        "IRI-based" : "Wishlist2"
+      }
+    } ],
+    "id" : "58"
+  }, {
+    "iri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Category",
+    "baseIri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Category"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Horror",
+      "baseIri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21",
+      "labels" : {
+        "IRI-based" : "Horror"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Fantasy",
+      "baseIri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21",
+      "labels" : {
+        "IRI-based" : "Fantasy"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#SelfDevelopment",
+      "baseIri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21",
+      "labels" : {
+        "IRI-based" : "SelfDevelopment"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Romance",
+      "baseIri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21",
+      "labels" : {
+        "IRI-based" : "Romance"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Thriller",
+      "baseIri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21",
+      "labels" : {
+        "IRI-based" : "Thriller"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Adventure",
+      "baseIri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21",
+      "labels" : {
+        "IRI-based" : "Adventure"
+      }
+    } ],
+    "id" : "55"
+  }, {
+    "iri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Customer",
+    "baseIri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Customer"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Zaineb",
+      "baseIri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21",
+      "labels" : {
+        "IRI-based" : "Zaineb"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Gamze",
+      "baseIri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21",
+      "labels" : {
+        "IRI-based" : "Gamze"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Fatma",
+      "baseIri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21",
+      "labels" : {
+        "IRI-based" : "Fatma"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Kchaou",
+      "baseIri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21",
+      "labels" : {
+        "IRI-based" : "Kchaou"
+      }
+    } ],
+    "id" : "8",
+    "superClasses" : [ "7" ]
+  } ],
+  "property" : [ {
+    "id" : "3",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "10",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "13",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "16",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "28",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "29",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "30",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "32",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "35",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "38",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "40",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "42",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "43",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "45",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "51",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "53",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "21",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "54",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "56",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "57",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "59",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "60",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "61",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "62",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "63",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "27",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "64",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "65",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "66",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "20",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "67",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "68",
+    "type" : "owl:datatypeProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#publisherName",
+    "baseIri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "publisherName"
+    },
+    "domain" : "4",
+    "attributes" : [ "datatype" ],
+    "id" : "3"
+  }, {
+    "iri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#wishlistName",
+    "baseIri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21",
+    "range" : "11",
+    "label" : {
+      "IRI-based" : "wishlistName"
+    },
+    "domain" : "4",
+    "attributes" : [ "datatype" ],
+    "id" : "10"
+  }, {
+    "range" : "15",
+    "domain" : "14",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "13"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "topObjectProperty"
+    },
+    "domain" : "4",
+    "subproperty" : [ "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27" ],
+    "attributes" : [ "external", "object" ],
+    "id" : "16"
+  }, {
+    "range" : "1",
+    "domain" : "0",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "28"
+  }, {
+    "range" : "7",
+    "domain" : "9",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "29"
+  }, {
+    "range" : "15",
+    "domain" : "31",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "30"
+  }, {
+    "range" : "1",
+    "domain" : "12",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "32"
+  }, {
+    "range" : "7",
+    "domain" : "8",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "35"
+  }, {
+    "iri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#orderDate",
+    "baseIri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21",
+    "range" : "39",
+    "label" : {
+      "IRI-based" : "orderDate"
+    },
+    "domain" : "4",
+    "attributes" : [ "datatype" ],
+    "id" : "38"
+  }, {
+    "iri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#bookPrice",
+    "baseIri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21",
+    "range" : "41",
+    "label" : {
+      "IRI-based" : "bookPrice"
+    },
+    "domain" : "4",
+    "attributes" : [ "datatype" ],
+    "id" : "40"
+  }, {
+    "iri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#rating",
+    "baseIri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21",
+    "range" : "34",
+    "label" : {
+      "IRI-based" : "rating"
+    },
+    "domain" : "4",
+    "attributes" : [ "datatype" ],
+    "id" : "42"
+  }, {
+    "iri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#authorName",
+    "baseIri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21",
+    "range" : "44",
+    "label" : {
+      "IRI-based" : "authorName"
+    },
+    "domain" : "4",
+    "attributes" : [ "datatype" ],
+    "id" : "43"
+  }, {
+    "iri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#categoryName",
+    "baseIri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21",
+    "range" : "46",
+    "label" : {
+      "IRI-based" : "categoryName"
+    },
+    "domain" : "4",
+    "attributes" : [ "datatype" ],
+    "id" : "45"
+  }, {
+    "iri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#reviewText",
+    "baseIri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21",
+    "range" : "49",
+    "label" : {
+      "IRI-based" : "reviewText"
+    },
+    "domain" : "4",
+    "attributes" : [ "datatype" ],
+    "id" : "51"
+  }, {
+    "iri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#bookTitle",
+    "baseIri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21",
+    "range" : "52",
+    "label" : {
+      "IRI-based" : "bookTitle"
+    },
+    "domain" : "4",
+    "attributes" : [ "datatype" ],
+    "id" : "53"
+  }, {
+    "iri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#addedToFavorites",
+    "baseIri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "addedToFavorites"
+    },
+    "superproperty" : [ "16" ],
+    "domain" : "4",
+    "attributes" : [ "object" ],
+    "id" : "21"
+  }, {
+    "iri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#belongsToCategory",
+    "baseIri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21",
+    "range" : "55",
+    "label" : {
+      "IRI-based" : "belongsToCategory"
+    },
+    "superproperty" : [ "16" ],
+    "domain" : "47",
+    "attributes" : [ "someValues", "object" ],
+    "id" : "54"
+  }, {
+    "iri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#addedToCart",
+    "baseIri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21",
+    "range" : "47",
+    "label" : {
+      "IRI-based" : "addedToCart"
+    },
+    "superproperty" : [ "16" ],
+    "domain" : "8",
+    "attributes" : [ "someValues", "object" ],
+    "id" : "56"
+  }, {
+    "iri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#hasWishlist",
+    "baseIri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21",
+    "range" : "58",
+    "label" : {
+      "IRI-based" : "hasWishlist"
+    },
+    "superproperty" : [ "16" ],
+    "domain" : "8",
+    "attributes" : [ "someValues", "object" ],
+    "id" : "57"
+  }, {
+    "iri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#hasOrder",
+    "baseIri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21",
+    "range" : "0",
+    "label" : {
+      "IRI-based" : "hasOrder"
+    },
+    "superproperty" : [ "16" ],
+    "domain" : "8",
+    "attributes" : [ "someValues", "object" ],
+    "id" : "59"
+  }, {
+    "iri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#hasPayment",
+    "baseIri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "hasPayment"
+    },
+    "superproperty" : [ "16" ],
+    "domain" : "0",
+    "attributes" : [ "someValues", "object" ],
+    "id" : "60"
+  }, {
+    "iri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#customerName",
+    "baseIri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21",
+    "range" : "48",
+    "label" : {
+      "IRI-based" : "customerName"
+    },
+    "domain" : "4",
+    "attributes" : [ "datatype" ],
+    "id" : "61"
+  }, {
+    "iri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#recommendedTo",
+    "baseIri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "recommendedTo"
+    },
+    "superproperty" : [ "16" ],
+    "domain" : "14",
+    "attributes" : [ "someValues", "object" ],
+    "id" : "62"
+  }, {
+    "iri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#reviewOf",
+    "baseIri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21",
+    "range" : "47",
+    "label" : {
+      "IRI-based" : "reviewOf"
+    },
+    "domain" : "31",
+    "attributes" : [ "someValues", "object" ],
+    "id" : "63"
+  }, {
+    "iri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#hasReview",
+    "baseIri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "hasReview"
+    },
+    "superproperty" : [ "16" ],
+    "domain" : "4",
+    "attributes" : [ "object" ],
+    "id" : "27"
+  }, {
+    "iri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#publishedBy",
+    "baseIri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "publishedBy"
+    },
+    "superproperty" : [ "16" ],
+    "domain" : "47",
+    "attributes" : [ "someValues", "object" ],
+    "id" : "64"
+  }, {
+    "iri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#writtenBy",
+    "baseIri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "writtenBy"
+    },
+    "superproperty" : [ "16" ],
+    "domain" : "47",
+    "attributes" : [ "someValues", "object" ],
+    "id" : "65"
+  }, {
+    "iri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#paymentMethod",
+    "baseIri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21",
+    "range" : "50",
+    "label" : {
+      "IRI-based" : "paymentMethod"
+    },
+    "domain" : "4",
+    "attributes" : [ "datatype" ],
+    "id" : "66"
+  }, {
+    "iri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#purchasedBy",
+    "baseIri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "purchasedBy"
+    },
+    "superproperty" : [ "16" ],
+    "domain" : "4",
+    "attributes" : [ "object" ],
+    "id" : "20"
+  }, {
+    "iri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#recommendationScore",
+    "baseIri" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21",
+    "range" : "33",
+    "label" : {
+      "IRI-based" : "recommendationScore"
+    },
+    "domain" : "4",
+    "attributes" : [ "datatype" ],
+    "id" : "67"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#topDataProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "36",
+    "label" : {
+      "IRI-based" : "topDataProperty"
+    },
+    "domain" : "4",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "68"
+  } ]
+}
