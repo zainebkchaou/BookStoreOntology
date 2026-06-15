@@ -1,0 +1,502 @@
+@prefix : <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#> .
+
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#addedToCart
+:addedToCart rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf owl:topObjectProperty ;
+             rdfs:domain [ rdf:type owl:Restriction ;
+                           owl:onProperty :addedToCart ;
+                           owl:someValuesFrom :Book
+                         ] .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#addedToFavorites
+:addedToFavorites rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf owl:topObjectProperty ;
+                  rdfs:domain [ rdf:type owl:Restriction ;
+                                owl:onProperty :addedToFavorites ;
+                                owl:someValuesFrom :Book
+                              ] .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#belongsToCategory
+:belongsToCategory rdf:type owl:ObjectProperty ;
+                   rdfs:subPropertyOf owl:topObjectProperty ;
+                   rdfs:domain [ rdf:type owl:Restriction ;
+                                 owl:onProperty :belongsToCategory ;
+                                 owl:someValuesFrom :Category
+                               ] .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#hasOrder
+:hasOrder rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf owl:topObjectProperty ;
+          rdfs:domain [ rdf:type owl:Restriction ;
+                        owl:onProperty :hasOrder ;
+                        owl:someValuesFrom :Order
+                      ] .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#hasPayment
+:hasPayment rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf owl:topObjectProperty ;
+            rdfs:domain [ rdf:type owl:Restriction ;
+                          owl:onProperty :hasPayment ;
+                          owl:someValuesFrom :Payment
+                        ] .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#hasReview
+:hasReview rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf owl:topObjectProperty ;
+           rdfs:domain [ rdf:type owl:Restriction ;
+                         owl:onProperty :hasReview ;
+                         owl:someValuesFrom :Review
+                       ] .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#hasWishlist
+:hasWishlist rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#publishedBy
+:publishedBy rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#purchasedBy
+:purchasedBy rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf owl:topObjectProperty ;
+             rdfs:domain [ rdf:type owl:Restriction ;
+                           owl:onProperty :purchasedBy ;
+                           owl:someValuesFrom :Customer
+                         ] .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#recommendedTo
+:recommendedTo rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#reviewOf
+:reviewOf rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#writtenBy
+:writtenBy rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf owl:topObjectProperty ;
+           rdfs:domain [ rdf:type owl:Restriction ;
+                         owl:onProperty :writtenBy ;
+                         owl:someValuesFrom :Author
+                       ] .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#authorName
+:authorName rdf:type owl:DatatypeProperty ;
+            rdfs:subPropertyOf owl:topDataProperty ;
+            rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#bookPrice
+:bookPrice rdf:type owl:DatatypeProperty ;
+           rdfs:subPropertyOf owl:topDataProperty ;
+           rdfs:range xsd:float .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#bookTitle
+:bookTitle rdf:type owl:DatatypeProperty ;
+           rdfs:subPropertyOf owl:topDataProperty ;
+           rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#categoryName
+:categoryName rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf owl:topDataProperty ;
+              rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#customerName
+:customerName rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf owl:topDataProperty ;
+              rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#orderDate
+:orderDate rdf:type owl:DatatypeProperty ;
+           rdfs:subPropertyOf owl:topDataProperty ;
+           rdfs:range xsd:dateTime .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#paymentMethod
+:paymentMethod rdf:type owl:DatatypeProperty ;
+               rdfs:subPropertyOf owl:topDataProperty ;
+               rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#publisherName
+:publisherName rdf:type owl:DatatypeProperty ;
+               rdfs:subPropertyOf owl:topDataProperty .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#rating
+:rating rdf:type owl:DatatypeProperty ;
+        rdfs:subPropertyOf owl:topDataProperty .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#recommendationScore
+:recommendationScore rdf:type owl:DatatypeProperty ;
+                     rdfs:subPropertyOf owl:topDataProperty .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#reviewText
+:reviewText rdf:type owl:DatatypeProperty ;
+            rdfs:subPropertyOf owl:topDataProperty ;
+            rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#wishlistName
+:wishlistName rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf owl:topDataProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Author
+:Author rdf:type owl:Class ;
+        rdfs:subClassOf :Person .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Book
+:Book rdf:type owl:Class ;
+      rdfs:subClassOf [ rdf:type owl:Restriction ;
+                        owl:onProperty :belongsToCategory ;
+                        owl:someValuesFrom :Category
+                      ] ,
+                      [ rdf:type owl:Restriction ;
+                        owl:onProperty :publishedBy ;
+                        owl:someValuesFrom :Publisher
+                      ] ,
+                      [ rdf:type owl:Restriction ;
+                        owl:onProperty :writtenBy ;
+                        owl:someValuesFrom :Author
+                      ] .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Cart
+:Cart rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Category
+:Category rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Customer
+:Customer rdf:type owl:Class ;
+          rdfs:subClassOf :Person ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :addedToCart ;
+                            owl:someValuesFrom :Book
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :hasOrder ;
+                            owl:someValuesFrom :Order
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :hasWishlist ;
+                            owl:someValuesFrom :Wishlist
+                          ] .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Favorite
+:Favorite rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Feedback
+:Feedback rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Order
+:Order rdf:type owl:Class ;
+       owl:equivalentClass [ rdf:type owl:Restriction ;
+                             owl:onProperty :hasPayment ;
+                             owl:someValuesFrom :Payment
+                           ] ;
+       rdfs:subClassOf :Transaction .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Payment
+:Payment rdf:type owl:Class ;
+         rdfs:subClassOf :Transaction .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Person
+:Person rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Publisher
+:Publisher rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Recommendation
+:Recommendation rdf:type owl:Class ;
+                rdfs:subClassOf :Feedback ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty :recommendedTo ;
+                                  owl:someValuesFrom :Customer
+                                ] .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Review
+:Review rdf:type owl:Class ;
+        rdfs:subClassOf :Feedback ,
+                        [ rdf:type owl:Restriction ;
+                          owl:onProperty :reviewOf ;
+                          owl:someValuesFrom :Book
+                        ] .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Transaction
+:Transaction rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Wishlist
+:Wishlist rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Adventure
+:Adventure rdf:type owl:NamedIndividual ,
+                    :Category .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#AlexMichaelides
+:AlexMichaelides rdf:type owl:NamedIndividual ,
+                          :Author .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#AtomicHabits
+:AtomicHabits rdf:type owl:NamedIndividual ,
+                       :Book ;
+              :belongsToCategory :SelfDevelopment ;
+              :hasReview :Review2 ;
+              :publishedBy :PenguinBooks ;
+              :writtenBy :JamesClear ;
+              :bookPrice 535 .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Fantasy
+:Fantasy rdf:type owl:NamedIndividual ,
+                  :Category .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Fatma
+:Fatma rdf:type owl:NamedIndividual ,
+                :Customer ;
+       :addedToCart :TheAlchemist ;
+       :addedToFavorites :PrideAndPrejudice ;
+       :hasOrder :Order2 ;
+       :hasWishlist :Wishlist2 .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Gamze
+:Gamze rdf:type owl:NamedIndividual ,
+                :Customer ;
+       :addedToCart :HarryPotter ;
+       :addedToFavorites :SilentPatient ;
+       :hasOrder :Order3 ;
+       :hasWishlist :Wishlist2 .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#HarperCollins
+:HarperCollins rdf:type owl:NamedIndividual ,
+                        :Publisher .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#HarryPotter
+:HarryPotter rdf:type owl:NamedIndividual ,
+                      :Book ;
+             :belongsToCategory :Fantasy ;
+             :hasReview :Review1 ;
+             :writtenBy :JkRowling ;
+             :bookPrice 45 .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Horror
+:Horror rdf:type owl:NamedIndividual ,
+                 :Category .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#JamesClear
+:JamesClear rdf:type owl:NamedIndividual ,
+                     :Author .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#JaneAusten
+:JaneAusten rdf:type owl:NamedIndividual ,
+                     :Author .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#JkRowling
+:JkRowling rdf:type owl:NamedIndividual ,
+                    :Author .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Kchaou
+:Kchaou rdf:type owl:NamedIndividual ,
+                 :Customer .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Order1
+:Order1 rdf:type owl:NamedIndividual ,
+                 :Order .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Order2
+:Order2 rdf:type owl:NamedIndividual ,
+                 :Order .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Order3
+:Order3 rdf:type owl:NamedIndividual ,
+                 :Order .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#PauloCoelho
+:PauloCoelho rdf:type owl:NamedIndividual ,
+                      :Author .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Payment1
+:Payment1 rdf:type owl:NamedIndividual ,
+                   :Payment .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Payment2
+:Payment2 rdf:type owl:NamedIndividual ,
+                   :Payment .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Payment3
+:Payment3 rdf:type owl:NamedIndividual ,
+                   :Payment .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#PenguinBooks
+:PenguinBooks rdf:type owl:NamedIndividual ,
+                       :Publisher .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#PrideAndPrejudice
+:PrideAndPrejudice rdf:type owl:NamedIndividual ,
+                            :Book ;
+                   :belongsToCategory :Romance ;
+                   :hasReview :Review3 ;
+                   :publishedBy :HarperCollins ;
+                   :writtenBy :JaneAusten ;
+                   :bookPrice 290 .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Review1
+:Review1 rdf:type owl:NamedIndividual ,
+                  :Review ;
+         :rating 5 ;
+         :reviewText "Excellent fantasy book" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Review2
+:Review2 rdf:type owl:NamedIndividual ,
+                  :Review ;
+         :rating 5 ;
+         :reviewText "Very motivating book" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Review3
+:Review3 rdf:type owl:NamedIndividual ,
+                  :Review ;
+         :rating 4 ;
+         :reviewText "Beautiful classic novel" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Review4
+:Review4 rdf:type owl:NamedIndividual ,
+                  :Review ;
+         :rating 5 ;
+         :reviewText "Exciting psychological thriller" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Romance
+:Romance rdf:type owl:NamedIndividual ,
+                  :Category .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#SelfDevelopment
+:SelfDevelopment rdf:type owl:NamedIndividual ,
+                          :Category .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#SilentPatient
+:SilentPatient rdf:type owl:NamedIndividual ,
+                        :Book ;
+               :belongsToCategory :Thriller ;
+               :publishedBy :PenguinBooks ;
+               :writtenBy :AlexMichaelides ;
+               :bookPrice 380 .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#TheAlchemist
+:TheAlchemist rdf:type owl:NamedIndividual ,
+                       :Book .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Thriller
+:Thriller rdf:type owl:NamedIndividual ,
+                   :Category .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Wishlist1
+:Wishlist1 rdf:type owl:NamedIndividual ,
+                    :Wishlist .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Wishlist2
+:Wishlist2 rdf:type owl:NamedIndividual ,
+                    :Wishlist .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#WishlistZaineb
+:WishlistZaineb rdf:type owl:NamedIndividual ,
+                         :Wishlist ;
+                :hasWishlist :WishlistZaineb .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Zaineb
+:Zaineb rdf:type owl:NamedIndividual ,
+                 :Customer ;
+        :addedToCart :AtomicHabits ;
+        :addedToFavorites :HarryPotter ;
+        :hasOrder :Order1 ;
+        :hasWishlist :WishlistZaineb .
+
+
+###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
