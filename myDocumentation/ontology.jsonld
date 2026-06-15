@@ -1,0 +1,764 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#addedToCart"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Book"
+  } ]
+}, {
+  "@id" : "_:genid10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#publishedBy"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Publisher"
+  } ]
+}, {
+  "@id" : "_:genid11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#writtenBy"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Author"
+  } ]
+}, {
+  "@id" : "_:genid12",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#addedToCart"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Book"
+  } ]
+}, {
+  "@id" : "_:genid13",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#hasOrder"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Order"
+  } ]
+}, {
+  "@id" : "_:genid14",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#hasWishlist"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Wishlist"
+  } ]
+}, {
+  "@id" : "_:genid15",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#hasPayment"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Payment"
+  } ]
+}, {
+  "@id" : "_:genid16",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#recommendedTo"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Customer"
+  } ]
+}, {
+  "@id" : "_:genid17",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#reviewOf"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Book"
+  } ]
+}, {
+  "@id" : "_:genid2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#addedToFavorites"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Book"
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#belongsToCategory"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Category"
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#hasOrder"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Order"
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#hasPayment"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Payment"
+  } ]
+}, {
+  "@id" : "_:genid6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#hasReview"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Review"
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#purchasedBy"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Customer"
+  } ]
+}, {
+  "@id" : "_:genid8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#writtenBy"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Author"
+  } ]
+}, {
+  "@id" : "_:genid9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#belongsToCategory"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Category"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Adventure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Category"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#AlexMichaelides",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Author"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#AtomicHabits",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#belongsToCategory" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#SelfDevelopment"
+  } ],
+  "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#bookPrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "535"
+  } ],
+  "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#hasReview" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Review2"
+  } ],
+  "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#publishedBy" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#PenguinBooks"
+  } ],
+  "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#writtenBy" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#JamesClear"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Book"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Author",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Person"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Book",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid9"
+  }, {
+    "@id" : "_:genid10"
+  }, {
+    "@id" : "_:genid11"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Cart",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Category",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Customer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Person"
+  }, {
+    "@id" : "_:genid12"
+  }, {
+    "@id" : "_:genid13"
+  }, {
+    "@id" : "_:genid14"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Fantasy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Category"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Fatma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#addedToCart" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#TheAlchemist"
+  } ],
+  "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#addedToFavorites" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#PrideAndPrejudice"
+  } ],
+  "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#hasOrder" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Order2"
+  } ],
+  "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#hasWishlist" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Wishlist2"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Customer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Favorite",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Feedback",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Gamze",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#addedToCart" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#HarryPotter"
+  } ],
+  "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#addedToFavorites" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#SilentPatient"
+  } ],
+  "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#hasOrder" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Order3"
+  } ],
+  "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#hasWishlist" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Wishlist2"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Customer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#HarperCollins",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Publisher"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#HarryPotter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#belongsToCategory" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Fantasy"
+  } ],
+  "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#bookPrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "45"
+  } ],
+  "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#hasReview" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Review1"
+  } ],
+  "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#writtenBy" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#JkRowling"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Book"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Horror",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Category"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#JamesClear",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Author"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#JaneAusten",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Author"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#JkRowling",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Author"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Kchaou",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Customer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Order",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Transaction"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid15"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Order1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Order"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Order2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Order"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Order3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Order"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#PauloCoelho",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Author"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Payment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Transaction"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Payment1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Payment"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Payment2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Payment"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Payment3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Payment"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#PenguinBooks",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Publisher"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Person",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#PrideAndPrejudice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#belongsToCategory" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Romance"
+  } ],
+  "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#bookPrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "290"
+  } ],
+  "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#hasReview" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Review3"
+  } ],
+  "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#publishedBy" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#HarperCollins"
+  } ],
+  "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#writtenBy" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#JaneAusten"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Book"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Publisher",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Recommendation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Feedback"
+  }, {
+    "@id" : "_:genid16"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Review",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Feedback"
+  }, {
+    "@id" : "_:genid17"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Review1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#rating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "5"
+  } ],
+  "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#reviewText" : [ {
+    "@value" : "Excellent fantasy book"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Review"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Review2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#rating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "5"
+  } ],
+  "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#reviewText" : [ {
+    "@value" : "Very motivating book"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Review"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Review3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#rating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "4"
+  } ],
+  "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#reviewText" : [ {
+    "@value" : "Beautiful classic novel"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Review"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Review4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#rating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "5"
+  } ],
+  "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#reviewText" : [ {
+    "@value" : "Exciting psychological thriller"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Review"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Romance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Category"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#SelfDevelopment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Category"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#SilentPatient",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#belongsToCategory" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Thriller"
+  } ],
+  "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#bookPrice" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "380"
+  } ],
+  "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#publishedBy" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#PenguinBooks"
+  } ],
+  "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#writtenBy" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#AlexMichaelides"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Book"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#TheAlchemist",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Book"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Thriller",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Category"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Transaction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Wishlist",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Wishlist1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Wishlist"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Wishlist2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Wishlist"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#WishlistZaineb",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#hasWishlist" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#WishlistZaineb"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Wishlist"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Zaineb",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#addedToCart" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#AtomicHabits"
+  } ],
+  "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#addedToFavorites" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#HarryPotter"
+  } ],
+  "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#hasOrder" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Order1"
+  } ],
+  "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#hasWishlist" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#WishlistZaineb"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Customer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#addedToCart",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#addedToFavorites",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid2"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#authorName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#belongsToCategory",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid3"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#bookPrice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#bookTitle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#categoryName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#customerName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#hasOrder",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid4"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#hasPayment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid5"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#hasReview",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid6"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#hasWishlist",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#orderDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#paymentMethod",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#publishedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#publisherName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#purchasedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid7"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#rating",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#recommendationScore",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#recommendedTo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#reviewOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#reviewText",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#wishlistName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#writtenBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid8"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+} ]

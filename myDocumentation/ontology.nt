@@ -1,0 +1,439 @@
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#addedToCart
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#addedToCart> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#addedToCart> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#addedToCart> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid1 .
+_:genid1 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Book> .
+_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#addedToCart> .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#addedToFavorites
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#addedToFavorites> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#addedToFavorites> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#addedToFavorites> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid2 .
+_:genid2 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Book> .
+_:genid2 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#addedToFavorites> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#belongsToCategory
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#belongsToCategory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#belongsToCategory> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#belongsToCategory> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid3 .
+_:genid3 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Category> .
+_:genid3 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#belongsToCategory> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#hasOrder
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#hasOrder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#hasOrder> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#hasOrder> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid4 .
+_:genid4 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Order> .
+_:genid4 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#hasOrder> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#hasPayment
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#hasPayment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#hasPayment> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#hasPayment> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid5 .
+_:genid5 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Payment> .
+_:genid5 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#hasPayment> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#hasReview
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#hasReview> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#hasReview> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#hasReview> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid6 .
+_:genid6 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Review> .
+_:genid6 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#hasReview> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#hasWishlist
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#hasWishlist> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#hasWishlist> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+# 
+# http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#publishedBy
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#publishedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#publishedBy> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+# 
+# http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#purchasedBy
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#purchasedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#purchasedBy> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#purchasedBy> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid7 .
+_:genid7 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Customer> .
+_:genid7 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#purchasedBy> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#recommendedTo
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#recommendedTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#recommendedTo> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+# 
+# http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#reviewOf
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#reviewOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#writtenBy
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#writtenBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#writtenBy> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#writtenBy> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid8 .
+_:genid8 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Author> .
+_:genid8 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#writtenBy> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#authorName
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#authorName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#authorName> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#authorName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#bookPrice
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#bookPrice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#bookPrice> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#bookPrice> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+# 
+# http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#bookTitle
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#bookTitle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#bookTitle> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#bookTitle> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#categoryName
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#categoryName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#categoryName> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#categoryName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#customerName
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#customerName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#customerName> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#customerName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#orderDate
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#orderDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#orderDate> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#orderDate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+# 
+# http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#paymentMethod
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#paymentMethod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#paymentMethod> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#paymentMethod> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#publisherName
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#publisherName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#publisherName> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+# 
+# http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#rating
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#rating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#rating> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+# 
+# http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#recommendationScore
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#recommendationScore> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#recommendationScore> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+# 
+# http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#reviewText
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#reviewText> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#reviewText> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#reviewText> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#wishlistName
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#wishlistName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#wishlistName> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Author
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Author> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Author> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Person> .
+# 
+# http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Book
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Book> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Book> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid9 .
+_:genid9 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Category> .
+_:genid9 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#belongsToCategory> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Book> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid10 .
+_:genid10 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Publisher> .
+_:genid10 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#publishedBy> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Book> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid11 .
+_:genid11 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Author> .
+_:genid11 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#writtenBy> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Cart
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Cart> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Category
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Category> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Customer
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Customer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Customer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Person> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Customer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid12 .
+_:genid12 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Book> .
+_:genid12 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#addedToCart> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Customer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid13 .
+_:genid13 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Order> .
+_:genid13 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#hasOrder> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Customer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid14 .
+_:genid14 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Wishlist> .
+_:genid14 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#hasWishlist> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Favorite
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Favorite> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Feedback
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Feedback> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Order
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Order> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Order> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid15 .
+_:genid15 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Payment> .
+_:genid15 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#hasPayment> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Order> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Transaction> .
+# 
+# http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Payment
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Payment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Payment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Transaction> .
+# 
+# http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Person
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Publisher
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Publisher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Recommendation
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Recommendation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Recommendation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Feedback> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Recommendation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid16 .
+_:genid16 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Customer> .
+_:genid16 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#recommendedTo> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Review
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Review> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Review> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Feedback> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Review> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid17 .
+_:genid17 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Book> .
+_:genid17 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#reviewOf> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Transaction
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Transaction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Wishlist
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Wishlist> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Adventure
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Adventure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Adventure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Category> .
+# 
+# http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#AlexMichaelides
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#AlexMichaelides> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#AlexMichaelides> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Author> .
+# 
+# http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#AtomicHabits
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#AtomicHabits> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#AtomicHabits> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Book> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#AtomicHabits> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#belongsToCategory> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#SelfDevelopment> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#AtomicHabits> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#hasReview> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Review2> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#AtomicHabits> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#publishedBy> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#PenguinBooks> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#AtomicHabits> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#writtenBy> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#JamesClear> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#AtomicHabits> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#bookPrice> "535"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+# 
+# http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Fantasy
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Fantasy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Fantasy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Category> .
+# 
+# http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Fatma
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Fatma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Fatma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Customer> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Fatma> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#addedToCart> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#TheAlchemist> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Fatma> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#addedToFavorites> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#PrideAndPrejudice> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Fatma> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#hasOrder> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Order2> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Fatma> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#hasWishlist> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Wishlist2> .
+# 
+# http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Gamze
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Gamze> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Gamze> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Customer> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Gamze> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#addedToCart> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#HarryPotter> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Gamze> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#addedToFavorites> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#SilentPatient> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Gamze> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#hasOrder> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Order3> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Gamze> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#hasWishlist> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Wishlist2> .
+# 
+# http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#HarperCollins
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#HarperCollins> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#HarperCollins> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Publisher> .
+# 
+# http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#HarryPotter
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#HarryPotter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#HarryPotter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Book> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#HarryPotter> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#belongsToCategory> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Fantasy> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#HarryPotter> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#hasReview> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Review1> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#HarryPotter> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#writtenBy> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#JkRowling> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#HarryPotter> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#bookPrice> "45"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+# 
+# http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Horror
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Horror> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Horror> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Category> .
+# 
+# http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#JamesClear
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#JamesClear> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#JamesClear> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Author> .
+# 
+# http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#JaneAusten
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#JaneAusten> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#JaneAusten> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Author> .
+# 
+# http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#JkRowling
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#JkRowling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#JkRowling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Author> .
+# 
+# http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Kchaou
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Kchaou> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Kchaou> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Customer> .
+# 
+# http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Order1
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Order1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Order1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Order> .
+# 
+# http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Order2
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Order2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Order2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Order> .
+# 
+# http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Order3
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Order3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Order3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Order> .
+# 
+# http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#PauloCoelho
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#PauloCoelho> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#PauloCoelho> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Author> .
+# 
+# http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Payment1
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Payment1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Payment1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Payment> .
+# 
+# http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Payment2
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Payment2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Payment2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Payment> .
+# 
+# http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Payment3
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Payment3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Payment3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Payment> .
+# 
+# http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#PenguinBooks
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#PenguinBooks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#PenguinBooks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Publisher> .
+# 
+# http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#PrideAndPrejudice
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#PrideAndPrejudice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#PrideAndPrejudice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Book> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#PrideAndPrejudice> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#belongsToCategory> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Romance> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#PrideAndPrejudice> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#hasReview> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Review3> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#PrideAndPrejudice> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#publishedBy> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#HarperCollins> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#PrideAndPrejudice> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#writtenBy> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#JaneAusten> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#PrideAndPrejudice> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#bookPrice> "290"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+# 
+# http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Review1
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Review1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Review1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Review> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Review1> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#rating> "5"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Review1> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#reviewText> "Excellent fantasy book" .
+# 
+# http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Review2
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Review2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Review2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Review> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Review2> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#rating> "5"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Review2> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#reviewText> "Very motivating book" .
+# 
+# http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Review3
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Review3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Review3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Review> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Review3> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#rating> "4"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Review3> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#reviewText> "Beautiful classic novel" .
+# 
+# http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Review4
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Review4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Review4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Review> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Review4> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#rating> "5"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Review4> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#reviewText> "Exciting psychological thriller" .
+# 
+# http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Romance
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Romance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Romance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Category> .
+# 
+# http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#SelfDevelopment
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#SelfDevelopment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#SelfDevelopment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Category> .
+# 
+# http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#SilentPatient
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#SilentPatient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#SilentPatient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Book> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#SilentPatient> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#belongsToCategory> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Thriller> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#SilentPatient> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#publishedBy> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#PenguinBooks> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#SilentPatient> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#writtenBy> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#AlexMichaelides> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#SilentPatient> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#bookPrice> "380"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+# 
+# http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#TheAlchemist
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#TheAlchemist> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#TheAlchemist> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Book> .
+# 
+# http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Thriller
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Thriller> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Thriller> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Category> .
+# 
+# http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Wishlist1
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Wishlist1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Wishlist1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Wishlist> .
+# 
+# http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Wishlist2
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Wishlist2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Wishlist2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Wishlist> .
+# 
+# http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#WishlistZaineb
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#WishlistZaineb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#WishlistZaineb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Wishlist> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#WishlistZaineb> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#hasWishlist> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#WishlistZaineb> .
+# 
+# http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Zaineb
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Zaineb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Zaineb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Customer> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Zaineb> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#addedToCart> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#AtomicHabits> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Zaineb> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#addedToFavorites> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#HarryPotter> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Zaineb> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#hasOrder> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Order1> .
+<http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#Zaineb> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#hasWishlist> <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#WishlistZaineb> .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
