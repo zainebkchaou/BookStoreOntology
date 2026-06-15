@@ -1,0 +1,58 @@
+PREFIX : <http://www.semanticweb.org/lenovo/ontologies/2026/3/untitled-ontology-21#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+# Query 1 : List all books
+
+SELECT ?book
+WHERE {
+ ?book rdf:type :Book .
+}
+
+# Query 2 : Find the author of each book
+
+SELECT ?book ?author
+WHERE {
+ ?book :writtenBy ?author .
+}
+
+# Query 3 : Find the category of each book
+
+SELECT ?book ?category
+WHERE {
+ ?book :belongsToCategory ?category .
+}
+
+# Query 4 : Find the reviews of each book
+
+SELECT ?book ?review
+WHERE {
+ ?book :hasReview ?review .
+}
+
+# Query 5 : Find the price of each book
+
+SELECT ?book ?price
+WHERE {
+ ?book :bookPrice ?price .
+}
+
+# Query 6 : Find customer orders
+
+SELECT ?customer ?order
+WHERE {
+ ?customer :hasOrder ?order .
+}
+
+# Query 7 : Find customers' favorite books
+
+SELECT ?customer ?book
+WHERE {
+ ?customer :addedToFavorites ?book .
+}
+
+# Query 8 : Find publishers
+
+SELECT ?book ?publisher
+WHERE {
+ ?book :publishedBy ?publisher .
+}
